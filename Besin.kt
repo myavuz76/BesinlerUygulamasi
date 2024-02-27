@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
-//@Entity room veri tabanindan veri cekilirken kullanilir
+//@Entity room veri tabanindan veri cekilirken kullanilir.
 
 @Entity
 data class Besin(
