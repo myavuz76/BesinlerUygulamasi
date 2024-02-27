@@ -12,7 +12,7 @@ class BesinDetayiViewModel(application: Application) : BaseViewModel(application
     //burda List kullanmamisza gerek yok cünkü bize sadece bir besin gelecek
     val besinLiveData = MutableLiveData<Besin>()
 
-    // room sqlite yapisini kullanmamizi saglayan bir küttüphane
+    // room sqlite yapisini kullanmamizi saglayan bir küttüphane.
     fun roomVerisiniAl(id :Int ){
 
         launch {
